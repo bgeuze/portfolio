@@ -1,0 +1,8 @@
+body {
+    background-color: gray;
+}
+
+.pf {
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
