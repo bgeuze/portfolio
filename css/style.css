@@ -164,17 +164,6 @@ aside {
     margin: 10px;
     background-image: url("../img/section_background.png");
     color: white;
-}
-
-#views {
-    flex: 1;
-}
-
-#plays {
-    flex: 1;
-}
-
-#shares {
     flex: 1;
 }
 
