@@ -22,13 +22,13 @@
     <nav class="navbar">
         <!-- logo -->
         <figure>
-            <img id="logo" src="img/logo.png" alt="Portfolio Logo">
+            <img id="logo" src="/img/logo.png" alt="Portfolio Logo">
         </figure>
         <!-- menu links -->
         <ul class="nav-links">
-          <li class="nav-item"><a href="index.html">About</a></li>
-          <li class="nav-item"><a href="index.html">Work</a></li>
-          <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <li class="nav-item"><a href="index.html#about">About</a></li>
+            <li class="nav-item"><a href="index.html#work">Work</a></li>
+            <li class="nav-item"><a href="/contact.html">Contact</a></li>
         </ul>
       </nav>
 </header>
@@ -77,7 +77,7 @@
     var email = url.searchParams.get("email");
     var message = url.searchParams.get("message");
 
-    // write values to paragraph.
+    // write param values to paragraph.
     document.getElementById('nameParam').innerHTML = "Name <br><small>" + name + "</small>";
     document.getElementById('emailParam').innerHTML = "Email <br><small>" + email + "</small>";
     document.getElementById('messageParam').innerHTML = "Message <br><small>" + message + "</small>";

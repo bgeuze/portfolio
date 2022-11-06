@@ -154,15 +154,43 @@ aside {
     flex: 25%;
 }
 
+#stats {
+    display: flex;
+    text-align: center;
+}
+
+#views, #plays, #shares {
+    border-radius: 15px;
+    margin: 10px;
+    background-image: url("../img/section_background.png");
+    color: white;
+}
+
+#views {
+    flex: 1;
+}
+
+#plays {
+    flex: 1;
+}
+
+#shares {
+    flex: 1;
+}
+
+#stats-text {
+    text-align: center;
+}
+
 .icon {
     font-size: 35px;
     margin-right: 10px;
     text-decoration: none;
-    color: purple
+    color: white
 }
 
 .icon:hover {
-    color: black
+    color: lightgray;
 }
 
 footer {

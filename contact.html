@@ -22,13 +22,13 @@
     <nav class="navbar">
         <!-- logo -->
         <figure>
-            <img id="logo" src="img/logo.png" alt="Portfolio Logo">
+            <img id="logo" src="/img/logo.png" alt="Portfolio Logo">
         </figure>
         <!-- menu links -->
         <ul class="nav-links">
-          <li class="nav-item"><a href="index.html">About</a></li>
-          <li class="nav-item"><a href="index.html">Work</a></li>
-          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item"><a href="index.html#about">About</a></li>
+          <li class="nav-item"><a href="index.html#work">Work</a></li>
+          <li class="nav-item"><a href="/contact.html">Contact</a></li>
         </ul>
       </nav>
 </header>
@@ -51,14 +51,6 @@
 <!-- content parent block -->
 <section class="content-contact">
 
-    <!-- contact information -->
-    <!-- <section id="email">
-        <article>
-            <h2>Contact</h2>
-            <p>Email Adress: <a href="mailto:info@baruchgeuze.com">info@baruchgeuze.com</a></p>
-        </article>
-    </section> -->
-
     <!-- contact block -->
     <section id="form">
         <article>
@@ -72,6 +64,9 @@
 
                 <label for="message">Message or comment</label>
                 <input type="text" id="message" name="message">
+
+                <label for="terms">Accept Terms & Conditions</label>
+                <input type="checkbox" id="terms">
 
                 <input id="send" type="submit">
             </form>
